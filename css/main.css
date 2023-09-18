@@ -69,13 +69,16 @@ header p, header a {
   text-decoration: none;
 }
 
-nav {w
-  background: #000;
-  padding: 20px;
+header a {
+  font-size: 18px;
+  line-height: 22px;
 }
 
-main {
-  padding: 60px 0;
+nav {
+  background: #000;
+  padding: 20px 42px;
+  display: flex;
+  justify-content: space-between;
 }
 
 main a {
@@ -88,7 +91,9 @@ main a {
   text-decoration: none;
   background-color: #000;
   padding: 20px 30px;
-  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0 77px;
 }
 
 h2 {
@@ -98,6 +103,43 @@ h2 {
   line-height: 50px;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+.light-part {
+  padding: 60px 20px 60px;
+}
+
+.light-part img {
+  border-bottom: 7px solid #D7A1FD;
+}
+
+.light-part .container div {
+  border: 1px solid #000;
+  max-width: 188px;
+  padding-bottom: 30px;
+}
+
+.light-part .container p {
+  text-align: center;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+.light-part .container h3 {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.light-part .container {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .citation {
@@ -193,7 +235,8 @@ h2 {
 
 footer {
   background: #000;
-  padding: 20px;
+  padding: 20px 20px 112px;
+  margin-top: 60px;
   color: #fff;
 }
 
