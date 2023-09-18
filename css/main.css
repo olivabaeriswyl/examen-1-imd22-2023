@@ -69,16 +69,60 @@ header p, header a {
   text-decoration: none;
 }
 
-nav {
+nav {w
   background: #000;
   padding: 20px;
 }
 
+main {
+  padding: 60px 0;
+}
+
+main a {
+  color: #D7A1FD;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #000;
+  padding: 20px 30px;
+  margin-bottom: 60px;
+}
 
 h2 {
   text-align: center;
   font-size: 50px;
   font-weight: 300;
   line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.container {
+  disply: flex;
+}
+
+.citation {
+  background: #98FB00;
+  padding: 20px;
+}
+
+.citation h3 {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: -1.5px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.citation p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 15px;
   text-transform: uppercase;
 }
