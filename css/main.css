@@ -38,7 +38,6 @@ video {
   vertical-align: text-top;
 }
 
-
 header {
   background: #D7A1FD;
 
@@ -203,11 +202,11 @@ h2 {
 .strong-title {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
-  letter-spacing: -2.5px;
 }
 
 .opportunities-part h2 {
   background: #D7A1FD;
+  letter-spacing: -2.5px;
   padding: 20px;
   margin-bottom: 0;
 }
@@ -242,21 +241,18 @@ footer {
 
 footer .strong-title {
   color: #313131;
-  letter-spacing: normal;
+}
+
+footer a, footer h3 {
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
 }
 
 footer h3 {
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 13px;
-  line-height: 18px;
   text-transform: uppercase;
-}
-
-footer a {
-  font-size: 13px;
-  line-height: 18px;
-  text-decoration: none;
 }
 
 footer .container {
