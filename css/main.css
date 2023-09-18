@@ -100,9 +100,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.container {
-  disply: flex;
-}
+
 
 .citation {
   background: #98FB00;
@@ -125,4 +123,21 @@ h2 {
   font-size: 15px;
   line-height: 15px;
   text-transform: uppercase;
+}
+
+.color-part {
+  background: #F4EDE8;
+  padding: 60px 20px;
+}
+
+.color-part .container div {
+  border-radius: 20px;
+  background: #fff;
+}
+
+.color-part .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 189px;
 }
